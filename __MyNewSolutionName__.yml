@@ -4,4 +4,4 @@ provider:
 
 functions:
   __MyInitialFunctionName__:
-    image: prefix/__MyInitialFunctionName__:0.0.1
+    image: prefix/__MyInitialFunctionName_LOWER__:0.0.1

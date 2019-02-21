@@ -22,6 +22,15 @@
             "defaultValue": "MyInitialFunction",
             "replaces": "__MyInitialFunctionName__",
             "FileRename": "__MyInitialFunctionName__"
+        },
+        "initialFunctionNameToLower": {
+            "type": "generated",
+            "generator": "casing",
+            "parameters": {
+                "source": "initialFunctionName",
+                "toLower": true
+            },
+            "replaces": "__MyInitialFunctionName_LOWER__"
         }
     }   
 }
